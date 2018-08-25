@@ -1,0 +1,13 @@
+.titlebar {
+    height: 100%;
+    background-color: #623f39;
+    -webkit-app-region: drag;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-size: 16pt;
+    span {
+        text-align: center;
+        margin: auto auto;
+    }
+}

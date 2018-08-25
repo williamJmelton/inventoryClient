@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  min-height: 100%;
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: 1fr 80%;
+  grid-template-areas: "titlebar titlebar"
+                       "toolbar  content"
+}
+
+app-titlebar {
+  grid-area: titlebar;
+}
+
+app-toolbar {
+  grid-area: toolbar;
+}
+
+.content {
+  background-color: #904041;
+  grid-area: content;
+  height: 100%;
+  border-left: 3px solid #6f3e3e;
+}
